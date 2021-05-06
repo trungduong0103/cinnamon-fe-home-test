@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#toast-portal {
+  position: relative;
+  z-index: 999;
+}
+
+.a-single-toast {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  width: 30vw;
+  font-family: Monaco, Courier New, monospace;
+  letter-spacing: 0.2px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  width: 30vw;
+  font-family: Monaco, Courier New, monospace;
+  letter-spacing: 0.2px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-right: 10px;
+}
+
+.pad-bottom {
+  margin-bottom: 15px;
+}
